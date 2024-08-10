@@ -1,0 +1,39 @@
+#root {
+  /*max-width: 1280px;*/
+  /*margin: 0 auto;*/
+  width: 100vw;
+  height: 100vh;
+  /*padding: 2rem;*/
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  background-color: unset;
+  border-radius: 2.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #3e5ac2, #7c4894cc);
+}
+h1 {
+  font-size: 2.2em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration:none;
+}
