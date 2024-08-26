@@ -33,6 +33,7 @@ export const EditStaff = () => {
         })
       );
       resetForm();
+
       dispatch(hideModal('EditStaffModal'));
     }
   });
