@@ -35,6 +35,7 @@ const staffSlice = createSlice({
       state.staff = state.staff.filter((staff) => staff.id !== action.payload);
       localStorage.setItem('staff', JSON.stringify(state.staff));
     }
+    12312312
   }
 });
 
