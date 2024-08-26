@@ -51,11 +51,12 @@
     "vite-tsconfig-paths": "^5.0.0"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx}": ["yarn lint", "git add"]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "**/*.{js,ts,tsx}": [
+      "prettier --write",
+      "eslint"
+    ],
+    "**/*.{json,yaml,yml,toml}": [
+      "prettier --write"
+    ]
   }
 }
